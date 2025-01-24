@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+h1 {
+  color: rgb(140, 176, 78);
+  text-align: center;
+  font-size: 60px;
+  background-color: rgb(92, 69, 45);
+  font-family: "Libre Baskerville", serif;
+  border: 5px solid rgb(122, 146, 68);
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+#introduccio {
+  color: rgb(38, 68, 21);
+}
+.colorBlau {
+  color: blue;
+}
+.capsalera {
+  grid-area: a;
+}
+.contingut {
+  grid-area: b;
+  padding: 10px;
+}
+.lateral {
+  grid-area: c;
+  padding: 10px;
+}
+.peu {
+  grid-area: d;
+}
+.principal {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 100px auto 40px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    "a a"
+    "b c"
+    "d d";
+}
+body {
+  background-color: rgb(225, 223, 182);
+}
+#p {
+  text-align: center;
+}
